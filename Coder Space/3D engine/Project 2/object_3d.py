@@ -1,9 +1,11 @@
 import pygame as pg
 from matrix_functions import *
-from numba import njit
 
 
-@njit(fastmath=True)
+#from numba import njit
+#To update to synchronize with numpy
+
+#@njit(fastmath=True)
 def any_func(arr, a, b):
     return np.any((arr == a) | (arr == b))
 

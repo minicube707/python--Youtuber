@@ -2,6 +2,10 @@ from object_3d import *
 from camera import *
 from projection import *
 import pygame as pg
+import os
+
+module_dir = os.path.dirname(__file__)
+os.chdir(module_dir)
 
 
 class SoftwareRender:
@@ -16,8 +20,8 @@ class SoftwareRender:
 
     def create_objects(self):
         self.camera = Camera(self, [-5, 6, -55])
-        self.projection = Projection(self)
-        self.object = self.get_object_from_file("Desktop\\Document\\Programmation\\Python\\Youtuber\\Coder Space\\3D engine\\Project 2\\t_34_obj.obj")
+        self.projection = Projection(self) 
+        self.object = self.get_object_from_file(os.path.join(module_dir, "t_34_obj.obj"))
         self.object.rotate_y(-math.pi / 4)
 
     def get_object_from_file(self, filename):
