@@ -5,7 +5,9 @@ import matplotlib.ticker as mticker
 import matplotlib.dates as mdates
 from datetime import datetime
 
-os.chdir("Desktop\\Document\\Programmation\\Python\\Youtuber\\Sendtex\\Maket\\Data")
+module_dir = os.path.dirname(__file__)
+os.chdir(os.path.join(module_dir, "Data"))
+
 eachStock ="TSLA"
 
 # Fonction de conversion pour convertir une chaîne de caractères en objet date

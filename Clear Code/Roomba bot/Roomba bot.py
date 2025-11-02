@@ -1,5 +1,9 @@
 import pygame, sys
 from pathfinder import algorithm
+import os
+
+module_dir = os.path.dirname(__file__)
+os.chdir(module_dir)
 
 WIDTH, HEIGHT = 1280,736
 
@@ -9,7 +13,7 @@ class Pathfinder:
         #setup
         self.matrix = matrix
         self.coord_wall = coord_wall
-        self.select_surf = pygame.image.load("Desktop\Document\Programmation\Python\Youtuber\Clear Code\Roomba bot\selection.png").convert_alpha()
+        self.select_surf = pygame.image.load("selection.png").convert_alpha()
         
         #Pathfinding
         self.path = []
@@ -73,7 +77,7 @@ class Roomba(pygame.sprite.Sprite):
 
         #basic
         super().__init__()
-        self.image = pygame.image.load("Desktop\\Document\\Programmation\\Python\\Youtuber\\Clear Code\\Roomba bot\\roomba.png").convert_alpha()
+        self.image = pygame.image.load("roomba.png").convert_alpha()
         self.rect = self.image.get_rect(center = (60, 60))
 
         #mouvement
@@ -139,7 +143,7 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 clock = pygame.time.Clock()
 
 #Game setup
-BG = pygame.image.load("Desktop\Document\Programmation\Python\Youtuber\Clear Code\Roomba bot\map.png").convert()
+BG = pygame.image.load("map.png").convert()
 BG = pygame.transform.scale(BG, (WIDTH, HEIGHT))
 
 #XY / 40x23
