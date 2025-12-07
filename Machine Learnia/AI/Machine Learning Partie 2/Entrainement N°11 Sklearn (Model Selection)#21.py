@@ -9,7 +9,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import learning_curve
 
-iris =load_iris()
+iris = load_iris()
 
 X = iris.data
 y = iris.target

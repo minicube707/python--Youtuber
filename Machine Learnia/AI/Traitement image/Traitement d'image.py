@@ -5,10 +5,15 @@ from    PIL         import ImageFilter
 from    PIL         import Image
 from    matplotlib  import transforms
 from    scipy       import ndimage
-    
+import os
+
+module_dir = os.path.dirname(__file__)
+os.chdir(module_dir)
+os.chdir("../Data")
+
 #Importer une image
-Image_Racoon = Image.open("Desktop\Document\Programme\Python\AI\Data\Racoon.png" ) 
-Image_Color = Image.open( "Desktop\Document\Programme\Python\AI\Data\Degrader.jpg") 
+Image_Racoon = Image.open("Racoon.png" ) 
+Image_Color = Image.open( "Degrader.jpg") 
 
 Image_Color= np.array( Image_Color )
 print("")

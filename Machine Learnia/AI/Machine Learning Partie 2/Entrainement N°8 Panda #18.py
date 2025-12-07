@@ -3,8 +3,9 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import os
 
-new_directory = "Desktop\Document\Programme\Python\AI\Data"
-os.chdir(new_directory)
+module_dir = os.path.dirname(__file__)
+os.chdir(module_dir)
+os.chdir("../Data")
 
 bitcoin = pd.read_csv('BTC-EUR.csv')
 

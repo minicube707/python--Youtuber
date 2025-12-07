@@ -3,19 +3,9 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import os
 
-
-#Execution du fichier
-current_directory = os.getcwd()
-print("Répertoire de travail actuel :", current_directory)
-
-# Déplacer l'exécution vers un autre répertoire
-new_directory = "Desktop\Document\Programme\Python\AI\Data"
-os.chdir(new_directory)
-
-#Execution du fichier
-current_directory = os.getcwd()
-print("Répertoire de travail actuel :", current_directory)
-
+module_dir = os.path.dirname(__file__)
+os.chdir(module_dir)
+os.chdir("../Data")
 
 # Charger le fichier Excel depuis le nouveau répertoire
 data_main = pd.read_excel("titanic.xls")

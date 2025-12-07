@@ -2,8 +2,13 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt 
 import seaborn as sns
+import os
 
-flower = pd.read_csv("anaconda3/pkgs/bokeh-2.4.3-py310haa95532_0/Lib/site-packages/bokeh/sampledata/_data/iris.csv")
+module_dir = os.path.dirname(__file__)
+os.chdir(module_dir)
+os.chdir("../Data")
+
+flower = pd.read_csv("iris.csv")
 print('')
 print(flower.head())
 

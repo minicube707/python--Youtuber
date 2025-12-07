@@ -4,10 +4,17 @@ from sklearn.metrics import*
 from sklearn.datasets import load_digits
 from sklearn.linear_model import LinearRegression
 import pandas as pd
+import os
+
+module_dir = os.path.dirname(__file__)
+os.chdir(module_dir)
+os.chdir("../Data")
 
 #Importation du dataset sur le prix de l'immobilier de Boston
-data_url = "http://lib.stat.cmu.edu/datasets/boston"
-raw_df = pd.read_csv(data_url, sep="\s+", skiprows=22, header=None)
+#data_url = "http://lib.stat.cmu.edu/datasets/boston"
+#raw_df = pd.read_csv(data_url, sep="\s+", skiprows=22, header=None)
+
+raw_df = pd.read_csv("boston_housing.csv")
 data = np.hstack([raw_df.values[::2, :], raw_df.values[1::2, :2]])
 target = raw_df.values[1::2, 2]
 
