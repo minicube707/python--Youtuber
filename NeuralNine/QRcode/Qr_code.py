@@ -3,7 +3,9 @@ import os
 
 import qrcode.constants
 
-os.chdir("Desktop//Document//Programmation//Python//Youtuber//NeuralNine")
+module_dir = os.path.dirname(__file__)
+os.chdir(module_dir)
+
 img = qrcode.make("Hello World§ This is is Neuralnine")
 img.save("qrcode.png")
 
