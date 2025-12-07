@@ -1,9 +1,8 @@
 import pandas as pd
 import os 
 
-os.chdir("Desktop\Document\Programmation\Python\Youtuber\Sendtex\Maket")
-
-import pandas as pd
+module_dir = os.path.dirname(__file__)
+os.chdir(module_dir)
 
 # Chargement du fichier CSV
 data = pd.read_csv("TSLA.csv", sep="\t", decimal=",")

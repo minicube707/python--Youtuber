@@ -2,7 +2,9 @@ import json
 import pandas as pd
 import os
 
-os.chdir("Desktop\Document\Programmation\Python\Youtuber\Sendtex\Maket")
+module_dir = os.path.dirname(__file__)
+os.chdir(module_dir)
+
 # Charger le fichier JSON (local ou provenant d'une API)
 
 name = "AMZON"
