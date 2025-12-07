@@ -1,5 +1,8 @@
 import pygame
+import os
 
+module_dir = os.path.dirname(__file__)
+os.chdir(module_dir)
 
 #/////////////////////////////////////////////
 # Initialisation
@@ -8,29 +11,29 @@ pygame.init()
 win = pygame.display.set_mode((500, 480))       
 pygame.display.set_caption("Fith game")        
 
-walkRight = [pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Character Mouvement\R1.png'),
-            pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Character Mouvement\R2.png'),
-            pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Character Mouvement\R3.png'), 
-            pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Character Mouvement\R4.png'), 
-            pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Character Mouvement\R5.png'), 
-            pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Character Mouvement\R6.png'), 
-            pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Character Mouvement\R7.png'), 
-            pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Character Mouvement\R8.png'), 
-            pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Character Mouvement\R9.png')]
+walkRight = [pygame.image.load('Character Mouvement\R1.png'),
+            pygame.image.load('Character Mouvement\R2.png'),
+            pygame.image.load('Character Mouvement\R3.png'), 
+            pygame.image.load('Character Mouvement\R4.png'), 
+            pygame.image.load('Character Mouvement\R5.png'), 
+            pygame.image.load('Character Mouvement\R6.png'), 
+            pygame.image.load('Character Mouvement\R7.png'), 
+            pygame.image.load('Character Mouvement\R8.png'), 
+            pygame.image.load('Character Mouvement\R9.png')]
                             
-walkLeft = [pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Character Mouvement\L1.png'), 
-            pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Character Mouvement\L2.png'), 
-            pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Character Mouvement\L3.png'), 
-            pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Character Mouvement\L4.png'), 
-            pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Character Mouvement\L5.png'), 
-            pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Character Mouvement\L6.png'), 
-            pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Character Mouvement\L7.png'), 
-            pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Character Mouvement\L8.png'), 
-            pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Character Mouvement\L9.png')]
+walkLeft = [pygame.image.load('Character Mouvement\L1.png'), 
+            pygame.image.load('Character Mouvement\L2.png'), 
+            pygame.image.load('Character Mouvement\L3.png'), 
+            pygame.image.load('Character Mouvement\L4.png'), 
+            pygame.image.load('Character Mouvement\L5.png'), 
+            pygame.image.load('Character Mouvement\L6.png'), 
+            pygame.image.load('Character Mouvement\L7.png'), 
+            pygame.image.load('Character Mouvement\L8.png'), 
+            pygame.image.load('Character Mouvement\L9.png')]
 
-char = pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Character Mouvement\standing.png')
+char = pygame.image.load('Character Mouvement\standing.png')
 
-bg = pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Background\Bg.jpg')
+bg = pygame.image.load('Background\Bg.jpg')
 
 clock = pygame.time.Clock()
 

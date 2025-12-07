@@ -1,5 +1,8 @@
 import pygame
+import os
 
+module_dir = os.path.dirname(__file__)
+os.chdir(module_dir)
 
 #/////////////////////////////////////////////
 # Initialisation
@@ -8,29 +11,29 @@ pygame.init()
 win = pygame.display.set_mode((500, 480))       
 pygame.display.set_caption("Eight game")        
 
-walkRight = [pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Character Mouvement\R1.png'),
-            pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Character Mouvement\R2.png'),
-            pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Character Mouvement\R3.png'), 
-            pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Character Mouvement\R4.png'), 
-            pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Character Mouvement\R5.png'), 
-            pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Character Mouvement\R6.png'), 
-            pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Character Mouvement\R7.png'), 
-            pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Character Mouvement\R8.png'), 
-            pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Character Mouvement\R9.png')]
+walkRight = [pygame.image.load('Character Mouvement\R1.png'),
+            pygame.image.load('Character Mouvement\R2.png'),
+            pygame.image.load('Character Mouvement\R3.png'), 
+            pygame.image.load('Character Mouvement\R4.png'), 
+            pygame.image.load('Character Mouvement\R5.png'), 
+            pygame.image.load('Character Mouvement\R6.png'), 
+            pygame.image.load('Character Mouvement\R7.png'), 
+            pygame.image.load('Character Mouvement\R8.png'), 
+            pygame.image.load('Character Mouvement\R9.png')]
                             
-walkLeft = [pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Character Mouvement\L1.png'), 
-            pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Character Mouvement\L2.png'), 
-            pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Character Mouvement\L3.png'), 
-            pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Character Mouvement\L4.png'), 
-            pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Character Mouvement\L5.png'), 
-            pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Character Mouvement\L6.png'), 
-            pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Character Mouvement\L7.png'), 
-            pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Character Mouvement\L8.png'), 
-            pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Character Mouvement\L9.png')]
+walkLeft = [pygame.image.load('Character Mouvement\L1.png'), 
+            pygame.image.load('Character Mouvement\L2.png'), 
+            pygame.image.load('Character Mouvement\L3.png'), 
+            pygame.image.load('Character Mouvement\L4.png'), 
+            pygame.image.load('Character Mouvement\L5.png'), 
+            pygame.image.load('Character Mouvement\L6.png'), 
+            pygame.image.load('Character Mouvement\L7.png'), 
+            pygame.image.load('Character Mouvement\L8.png'), 
+            pygame.image.load('Character Mouvement\L9.png')]
 
-char = pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Character Mouvement\standing.png')
+char = pygame.image.load('Character Mouvement\standing.png')
 
-bg = pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Background\Bg.jpg')
+bg = pygame.image.load('Background\Bg.jpg')
 
 clock = pygame.time.Clock()
 
@@ -91,29 +94,29 @@ class projectile(object):
         pygame.draw.circle(win, self.color, (self.x, self.y), self.radius)
 
 class enemy (object):
-    walkRight = [pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Enemy Mouvement\R1E.png'),
-                pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Enemy Mouvement\R2E.png'), 
-                pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Enemy Mouvement\R3E.png'), 
-                pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Enemy Mouvement\R4E.png'), 
-                pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Enemy Mouvement\R5E.png'), 
-                pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Enemy Mouvement\R6E.png'), 
-                pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Enemy Mouvement\R7E.png'), 
-                pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Enemy Mouvement\R8E.png'), 
-                pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Enemy Mouvement\R9E.png'), 
-                pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Enemy Mouvement\R10E.png'), 
-                pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Enemy Mouvement\R11E.png')]
+    walkRight = [pygame.image.load('Enemy Mouvement\R1E.png'),
+                pygame.image.load('Enemy Mouvement\R2E.png'), 
+                pygame.image.load('Enemy Mouvement\R3E.png'), 
+                pygame.image.load('Enemy Mouvement\R4E.png'), 
+                pygame.image.load('Enemy Mouvement\R5E.png'), 
+                pygame.image.load('Enemy Mouvement\R6E.png'), 
+                pygame.image.load('Enemy Mouvement\R7E.png'), 
+                pygame.image.load('Enemy Mouvement\R8E.png'), 
+                pygame.image.load('Enemy Mouvement\R9E.png'), 
+                pygame.image.load('Enemy Mouvement\R10E.png'), 
+                pygame.image.load('Enemy Mouvement\R11E.png')]
     
-    walkLeft = [pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Enemy Mouvement\L1E.png'), 
-                pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Enemy Mouvement\L2E.png'), 
-                pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Enemy Mouvement\L3E.png'), 
-                pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Enemy Mouvement\L4E.png'), 
-                pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Enemy Mouvement\L5E.png'), 
-                pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Enemy Mouvement\L6E.png'), 
-                pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Enemy Mouvement\L7E.png'), 
-                pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Enemy Mouvement\L8E.png'), 
-                pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Enemy Mouvement\L9E.png'), 
-                pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Enemy Mouvement\L10E.png'), 
-                pygame.image.load('Desktop\Document\Programme\Python\Tech with Tim\pygame\Enemy Mouvement\L11E.png')]
+    walkLeft = [pygame.image.load('Enemy Mouvement\L1E.png'), 
+                pygame.image.load('Enemy Mouvement\L2E.png'), 
+                pygame.image.load('Enemy Mouvement\L3E.png'), 
+                pygame.image.load('Enemy Mouvement\L4E.png'), 
+                pygame.image.load('Enemy Mouvement\L5E.png'), 
+                pygame.image.load('Enemy Mouvement\L6E.png'), 
+                pygame.image.load('Enemy Mouvement\L7E.png'), 
+                pygame.image.load('Enemy Mouvement\L8E.png'), 
+                pygame.image.load('Enemy Mouvement\L9E.png'), 
+                pygame.image.load('Enemy Mouvement\L10E.png'), 
+                pygame.image.load('Enemy Mouvement\L11E.png')]
     
     def __init__(self, x, y, width, height, end) -> None:
         self.x = x
