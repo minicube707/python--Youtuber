@@ -1,8 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-from Def_graphique import fonction_graphique, fonction_graphque_comparaison
-
 def batage(listmin, listmax):
 
     a=0

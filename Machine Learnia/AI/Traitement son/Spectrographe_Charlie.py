@@ -2,8 +2,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 import os 
 
-import librosa
-
 
 from scipy.signal import argrelextrema 
 from scipy.io import wavfile
@@ -78,17 +76,6 @@ def egaliser_amplitude(y, y_reference, sample_rate):
 
 # Ignorer les UserWarnings
 warnings.filterwarnings("ignore", category=UserWarning)
-
-#Dossier actuel
-current_directory = os.getcwd()
-print("Vous êtes actuellement dans le dossier :", current_directory)
-
-if current_directory == "C:\\Users\\flore\\Desktop\\Document\\Programme\\Python\\AI\\Traitement son" :
-      os.chdir("..\..\..\..\..\..")
-
-      current_directory = os.getcwd()
-      print("Vous êtes actuellement dans le dossier :", current_directory)
-
 
 #Déplacement dans l'ordi
 os.chdir("Music\Fichier wav")

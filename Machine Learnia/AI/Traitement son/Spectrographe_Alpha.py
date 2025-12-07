@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 import numpy as np
-import os 
 
 from scipy.signal import argrelextrema 
 from scipy.io import wavfile
@@ -11,9 +10,11 @@ from Def_spectrographe import  func_cut
 from Def_graphique import fonction_graphique, fonction_graphque_comparaison
 from Def_animation import fonction_animation
 from Def_preprocessing import function_vecteur, batage
-from Def_clustering import fonction_clustering
+from Def_clustering import fonction_clustering_KMeans
 
 import warnings
+import os
+
 
 def find_indice(matrice, val, axis, indice):
 
@@ -40,17 +41,6 @@ def find_indice(matrice, val, axis, indice):
 
 # Ignorer les UserWarnings
 warnings.filterwarnings("ignore", category=UserWarning)
-
-#Dossier actuel
-current_directory = os.getcwd()
-print("Vous êtes actuellement dans le dossier :", current_directory)
-
-if current_directory == "C:\\Users\\flore\\Desktop\\Document\\Programme\\Python\\AI\\Traitement son" :
-      os.chdir("..\..\..\..\..\..")
-
-      current_directory = os.getcwd()
-      print("Vous êtes actuellement dans le dossier :", current_directory)
-
 
 #Déplacement dans l'ordi
 os.chdir("Music\Fichier wav")
@@ -494,7 +484,7 @@ X = stand_scaler.fit_transform(X)
 
 print("\nX",X)
 
-cluster, label = fonction_clustering(X, 10)
+cluster, label = fonction_clustering_KMeans(X, 10)
 
 
 #Affichage des données
@@ -633,7 +623,7 @@ X = stand_scaler.fit_transform(X)
 
 print("\nX",X)
 
-cluster, label = fonction_clustering(X, 10)
+cluster, label = fonction_clustering_KMeans(X, 10)
 
 
 #Affichage des données

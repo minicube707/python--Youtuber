@@ -3,10 +3,6 @@ import matplotlib.pyplot as plt
 
 from scipy.signal import argrelextrema 
 
-import os
-
-os.chdir("C:\\Users\\flore\\Desktop\\Document\\Programme\\Python\\AI\\Traitement son")
-
 
 def function_vecteur (list_indice_min, list_indice_max, X, Y, pourcent):
 

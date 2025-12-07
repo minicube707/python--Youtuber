@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
-import os 
+
 
 from scipy.signal import argrelextrema 
 from scipy.io import wavfile
@@ -17,7 +17,7 @@ from Def_preprocessing3 import fonction_trouver_min_plus_petit, fonction_smooth
 from Def_clustering import fonction_clustering_KMeans, fonction_clustering_AffinityPropagation, fonction_clustering_Spectral
 
 import warnings
-
+import os 
 
 def find_indice(matrice, val, axis, indice): #A partir d'une matrice, d'une valeur comprise dans la matrice, de l'indice de la valeur et l'axe de l'indice. #Retourne l'autre indice de l'autre axe
     if axis == 0:
@@ -39,23 +39,12 @@ def find_indice(matrice, val, axis, indice): #A partir d'une matrice, d'une vale
 # Ignorer les UserWarnings
 warnings.filterwarnings("ignore", category=UserWarning)
 
-#Dossier actuel
-current_directory = os.getcwd()
-print("Vous êtes actuellement dans le dossier :", current_directory)
-
-if current_directory == "C:\\Users\\flore\\Desktop\\Document\\Programme\\Python\\AI\\Traitement son" :
-      os.chdir("..\..\..\..\..\..")
-
-      current_directory = os.getcwd()
-      print("Vous êtes actuellement dans le dossier :", current_directory)
-
 
 #Déplacement dans l'ordi
 os.chdir("Music\Fichier wav")
 
 
 #Chargez le contenu du fichier .wav.
-
 
 #Fichier stéréo:
 #5000.wav

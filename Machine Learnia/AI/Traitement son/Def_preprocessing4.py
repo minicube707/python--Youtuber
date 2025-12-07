@@ -5,10 +5,6 @@ from collections import defaultdict
 
 from sklearn.preprocessing import RobustScaler
 from Def_graphique import fonction_graphque_comparaison
-import os
-
-os.chdir("C:\\Users\\flore\\Desktop\\Document\\Programme\\Python\\AI\\Traitement son")
-
 
 """New Fonction"""
 def function_difference_tangente (list_indice_min, list_indice_max, X, Y, pourcent):
