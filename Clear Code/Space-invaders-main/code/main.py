@@ -6,7 +6,8 @@ from random import choice, randint
 from laser import Laser
 import os
 
-os.chdir("Desktop\Document\Programmation\Python\Youtuber\Clear Code\Space-invaders-main\code")
+module_dir = os.path.dirname(__file__)
+os.chdir(module_dir)
 
 class Game:
 	def __init__(self):
