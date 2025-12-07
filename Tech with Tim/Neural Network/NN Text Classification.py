@@ -4,7 +4,9 @@ import matplotlib.pyplot as plt
 import os
 
 os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
-os.chdir("Desktop\Document\Programme\Python\Youtuber\Tech with Tim\\Neural Network")
+
+module_dir = os.path.dirname(__file__)
+os.chdir(module_dir)
 
 data = keras.datasets.imdb
 

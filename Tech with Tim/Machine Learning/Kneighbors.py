@@ -3,7 +3,8 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn import preprocessing, model_selection
 import os
 
-os.chdir("Desktop\Document\Programme\Python\Youtuber\Tech with Tim\Machine Learning")
+module_dir = os.path.dirname(__file__)
+os.chdir(module_dir)
 data = pd.read_csv("car.data", sep=",")
 
 print(data)

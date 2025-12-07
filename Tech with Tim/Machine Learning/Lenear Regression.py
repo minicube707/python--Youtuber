@@ -4,7 +4,9 @@ import os
 from sklearn import linear_model, model_selection
 import pickle
 
-os.chdir("Desktop\Document\Programme\Python\Youtuber\Tech with Tim\Machine Learning")
+module_dir = os.path.dirname(__file__)
+os.chdir(module_dir)
+
 data = pd.read_csv("student-mat.csv", sep=";")
 
 data = data[["G1", "G2", "G3", "studytime", "failures", "absences"]]
