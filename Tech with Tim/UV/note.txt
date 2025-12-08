@@ -1,0 +1,150 @@
+Notes uv (cheat sheet)
+
+1. 🌟 Qu’est-ce que uv ?
+
+uv est un outil moderne tout-en-un pour Python.
+Il remplace :
+    - pip (installation de packages)
+    - pipx (exécution d’outils isolés)
+    - virtualenv / venv (gestion d’environnements virtuels)
+    - pip-tools (résolution de dépendances)
+    - poetry / pdm (gestion de projets)
+    - pyenv (gestion de versions de Python)
+
+Objectif : rendre Python simple, rapide et fiable.
+
+Points clés :
+    - Ultra rapide (écrit en Rust)
+    - Peut installer et utiliser Python automatiquement
+    - Fonctionne avec pyproject.toml et les scripts autonomes
+    - Compatible avec tout l’écosystème Python
+
+
+2. ⚙️ Installation de uv
+
+Installer (Linux, macOS, Windows) :
+    curl -LsSf https://astral.sh/install.sh | sh
+
+Vérifier l’installation :
+    uv --version
+
+
+3. 🧩 Les 3 usages principaux de uv
+
+3.1. Exécuter du Python
+    uv run main.py
+uv télécharge automatiquement une version de Python si nécessaire.
+
+Exécuter avec une version spécifique :
+    uv run --python 3.10 main.py
+
+
+3.2. Créer et gérer un projet
+
+Créer un nouveau projet Python :
+    uv init myproject
+
+Créer un script autonome avec ses dépendances intégrées :
+    uv init --script main.py
+
+Exemple de bloc ajouté dans le script :
+    # /// script
+    # requires-python = ">=3.12"
+    # dependencies = ["rich"]
+    # ///
+
+
+3.3. Installer des packages
+
+Ajouter des dépendances dans un projet :
+    uv add requests numpy
+
+Ajouter des dépendances dans un script :
+    uv add --script main.py requests rich
+
+Installer un package temporairement (sans l’ajouter au projet) :
+    uv run --with pandas analyse.py
+
+
+4. 📦 Comprendre le système de dépendances uv
+
+uv utilise le fichier :
+    pyproject.toml
+
+Ce fichier contient :
+    - dépendances
+    - configuration
+    - version de Python
+    - scripts
+
+Exemple :
+    [project]
+    name = "demo"
+    dependencies = [
+        "requests",
+        "rich>=13",
+    ]
+    requires-python = ">=3.11"
+
+uv génère aussi :
+    uv.lock  → versions figées pour une reproductibilité garantie.
+
+
+5. 🧪 Environnements Python avec uv
+
+Créer un environnement virtuel :
+    uv venv
+
+Créer un venv avec une version spécifique :
+    uv venv --python 3.12
+
+Activer le venv :
+    Linux/macOS : source .venv/bin/activate
+    Windows    : .venv\Scripts\activate
+
+Installer dans le venv :
+    uv pip install fastapi
+
+
+6. 🚀 uv pour les scripts (fonction phare)
+
+Créer un script avec gestion automatique des dépendances :
+    uv init --script main.py
+
+Ajouter des packages au script :
+    uv add --script main.py rich requests
+
+Lancer le script :
+    uv run main.py
+
+Idéal pour :
+    - petits programmes
+    - automatisation
+    - outils internes
+    - datascience / notebooks
+
+
+7. 🧹 uv et l’écosystème Python
+
+uv n’est pas un framework.
+Il est compatible avec :
+    ✔ PyPI
+    ✔ FastAPI / Django / Flask
+    ✔ Jupyter
+    ✔ Poetry / pip / virtualenv
+    ✔ Wheels, sdists, extras (package[extra])
+
+uv s’intègre sans casser votre workflow existant.
+
+
+8. 📝 Résumé (cheat sheet)
+
+Créer un projet :             uv init myproject
+Créer un script :             uv init --script main.py
+Ajouter dépendances :         uv add requests rich
+Ajouter (script) :            uv add --script main.py requests
+Exécuter :                    uv run main.py
+Exécuter avec Python X :      uv run --python 3.10 main.py
+Installer temporaire :        uv run --with pandas script.py
+Créer un venv :               uv venv --python 3.12
+Installer dans venv :         uv pip install numpy
