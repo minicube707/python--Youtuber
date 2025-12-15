@@ -32,6 +32,6 @@ def heatmap(quantifier):
 
 if __name__ == "__main__":
     # Run your desired simulations or visualizations here
-    #pygame_run(make_state(1,0.2033898305084746,0.05084745762711865))
+    pygame_run(make_state(1,0.2033898305084746,0.05084745762711865))
     heatmap(proximity)
 
