@@ -15,23 +15,21 @@ def spiral_data(points, classes):
         y[ix] = class_number
     return X, y
 
+def graph(X, y):
+    plt.figure(figsize=(6, 6))
+    plt.scatter(X[:, 0], X[:, 1], c=y)
+    plt.title("Spiral Dataset")
+    plt.xlabel("X1")
+    plt.ylabel("X2")
+    plt.axis('equal')
 
-X, y = spiral_data(100, 3)  
-
-plt.figure(figsize=(6, 6))
-plt.scatter(X[:, 0], X[:, 1], c=y)
-plt.title("Spiral Dataset")
-plt.xlabel("X1")
-plt.ylabel("X2")
-plt.axis('equal')
-
-plt.figure(figsize=(6, 6))
-plt.scatter(X[:, 0], X[:, 1])
-plt.title("Spiral Dataset")
-plt.xlabel("X1")
-plt.ylabel("X2")
-plt.axis('equal')
-plt.show()
+    plt.figure(figsize=(6, 6))
+    plt.scatter(X[:, 0], X[:, 1])
+    plt.title("Spiral Dataset")
+    plt.xlabel("X1")
+    plt.ylabel("X2")
+    plt.axis('equal')
+    plt.show()
 
 
 class Layer_Dense:
@@ -54,6 +52,7 @@ class Activation_Softmax:
         self.output = probabilities
 
 X, y = spiral_data(100, 3)
+graph(X, y)
 
 dense1 = Layer_Dense(2,3)
 activation1 = Activation_Relu()

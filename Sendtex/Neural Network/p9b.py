@@ -50,19 +50,19 @@ def graph(X, y):
 class Layer_Dense:
 
     def __init__(self, n_inputs, n_neurons):
-        self.weights = 0.01 * np.random.randn(n_inputs, n_neurons)
+        self.weights = np.random.randn(n_inputs, n_neurons)  * 2 - 1
         self.biases = np.zeros((1, n_neurons))
 
     def forward(self, inputs):
         self.inputs = inputs
         self.output = np.dot(inputs, self.weights) + self.biases
         
-    def backward(self, learning_rate):
-        m = self.output.shape[1]  
+    def backward(self, learning_rate,):
 
-        gradients_weight = 1 / m * np.dot(self.inputs.T, self.dZ)            #dL/dW2 
-        gradients_biases = 1 / m * np.mean(self.dZ, axis=0, keepdims=True)   #dL/db2
-        self.dA = np.dot(self.dZ, self.weights.T)                        #dL/dA
+        m = self.inputs.shape[0]
+        gradients_weight = 1 / m * np.dot(self.inputs.T, self.dZ)               #dL/dW
+        gradients_biases = np.mean(self.dZ, axis=0, keepdims=True)              #dL/db
+        self.dA = np.dot(self.dZ, self.weights.T)                               #dL/dA
         
         self.weights -= learning_rate * gradients_weight
         self.biases -= learning_rate * gradients_biases
@@ -76,7 +76,7 @@ class Activation_ReLU:
 
     def backward(self):
         self.derivative = np.where(self.inputs < 0, 0, 1)
-    
+
 class Activation_Softmax:
 
     def forward(self, inputs):
@@ -117,36 +117,70 @@ y =  Label_binarizer(y)
 
 learning_rate  = 0.001
 
-dense1 = Layer_Dense(2,32)
+dense1 = Layer_Dense(2,128)
 activation1 = Activation_ReLU()
-dense2 = Layer_Dense(32, 3)
-activation2 = Activation_Softmax()
+
+dense2 = Layer_Dense(128, 128)
+activation2 = Activation_ReLU()
+
+dense3 = Layer_Dense(128, 128)
+activation3 = Activation_ReLU()
+
+dense4 = Layer_Dense(128, 128)
+activation4 = Activation_ReLU()
+
+dense5 = Layer_Dense(128, 3)
+activation5 = Activation_Softmax()
 
 for i in range(10000):
 
     #Forward
-    #Laywer1
+    #Layer1
     dense1.forward(X)
     activation1.forward(dense1.output)
 
-    #Laywer2
+    #Layer2
     dense2.forward(activation1.output)
     activation2.forward(dense2.output)
 
+    #Layer3
+    dense3.forward(activation2.output)
+    activation3.forward(dense3.output)
+
+    #Layer4
+    dense4.forward(activation3.output)
+    activation4.forward(dense4.output)
+
+    #Layer5
+    dense5.forward(activation4.output)
+    activation5.forward(dense5.output)
+
     loss_function = Loss_CategoricalCrossentropy()
-    loss = loss_function.calculate(activation2.output, y)
+    loss = loss_function.calculate(activation5.output, y)
 
     if i % 100 == 0:
         print("Loss:", loss)
 
     #Backward
-    dense2.dZ = activation2.output - y              #dL/dZ2
-    dense2.backward(learning_rate)                  #dL/dW2 
-    activation1.backward()
+    dense5.dZ = activation5.output - y              #dL/dZ5
+    dense5.backward(learning_rate)                  #dL/dW5
+    activation4.backward()
     
+    dense4.dZ = dense5.dA * activation4.derivative  #dL/dZ4
+    dense4.backward(learning_rate)                  #dL/dZ4
+    activation3.backward()
+
+    dense3.dZ = dense4.dA * activation3.derivative  #dL/dZ3
+    dense3.backward(learning_rate)                  #dL/dZ3
+    activation2.backward()
+
+    dense2.dZ = dense3.dA * activation2.derivative  #dL/dZ2
+    dense2.backward(learning_rate)                  #dL/dZ2
+    activation1.backward()
+
     dense1.dZ = dense2.dA * activation1.derivative  #dL/dZ1
     dense1.backward(learning_rate)                  #dL/dZ1
 
-y_pred = activation2.output
+y_pred = activation5.output
 y_pred_labels = np.argmax(y_pred, axis=1)
 graph(X, y_pred_labels)
