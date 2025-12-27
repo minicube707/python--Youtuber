@@ -5,13 +5,15 @@ import cudf
 import os
 import time
 import numpy as np
+import kagglehub
 
 module_dir = os.path.dirname(__file__)
 os.chdir(module_dir)
 
-#=====================
-#       Part 1
-#=====================
+
+# Download latest version
+path = kagglehub.dataset_download("mexwell/taxi-trips-2023")
+print("Path to dataset files:", path)
 
 df = pd.read_csv("taxi-trips-2023\versions\1\Taxi_Trips_-_2023.csv")
 gdf = cudf.DataFrame.from_pandas(df)
@@ -56,8 +58,3 @@ gpu_total_amount = gpu_result['Trip Total'].to_numpy()
 
 assert np.allclose(cpu_trip_distance, gpu_trip_distance, atol=1e-5), "Trip distance do not match"
 assert np.allclose(cpu_total_amount, gpu_total_amount, atol=1e-5), "Trip distance do not match"
-
-
-#=====================
-#       Part 1
-#=====================
