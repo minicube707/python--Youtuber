@@ -77,7 +77,7 @@ class NODE:
         pygame.draw.rect(win, self.colour, (self.x, self.y, self.width, self.width))
 
         
-def mahe_grid(rows, width):
+def make_grid(rows, width):
     grid = []
     gap = width // rows
     for i in range(rows):
@@ -327,7 +327,7 @@ def make_maze(grid, rows, win , width):
 
 def main(win, width):
     rows = 50
-    grid = mahe_grid(rows, width)
+    grid = make_grid(rows, width)
     grid = make_maze(grid, rows, win , width)
     run = True
 
@@ -337,10 +337,13 @@ def main(win, width):
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 run = False
+            if event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_ESCAPE:
+                    run = False
             
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_c:
-                    grid = mahe_grid(rows, width)
+                    grid = make_grid(rows, width)
 
 
     pygame.quit()

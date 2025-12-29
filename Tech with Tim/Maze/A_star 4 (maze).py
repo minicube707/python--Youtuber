@@ -217,10 +217,10 @@ def place_end(grid, rows, current_node, rand):
 
     #Up
     elif rand == 2:
-        while (i <= rows -1) and not placed_end:
+        while (i <= rows - 1) and not placed_end:
             j = 1
 
-            while (j <= rows -1) and not placed_end:
+            while (j <= rows - 1) and not placed_end:
 
                 state_neighbors = 0
                 for dx in [-1, 0, 1]:
@@ -441,7 +441,7 @@ def main(win, width):
     run = True
     finish = False
     
-    nb_door = 0
+    nb_door = 5
     while run:
 
         for event in pygame.event.get():
