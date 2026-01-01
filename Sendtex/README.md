@@ -51,6 +51,9 @@ Each folder contains:
 - **Monte Carlo Simulation Playlist**  
   https://www.youtube.com/watch?v=9M_KPXwnrlE&list=PLQVvvaa0QuDdhOnp-FnVStDsALpYk2hk0
 
+- **Programing Finance Playlist**  
+  https://www.youtube.com/watch?v=2BrpKpWwT2A&list=PLQVvvaa0QuDcOdF96TBtRtuQksErCEBYZ 
+
 ---
 
 ### 📊 Data Visualization
