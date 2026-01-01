@@ -71,6 +71,10 @@ Each folder contains:
 - **UV**  
   https://www.youtube.com/watch?v=6pttmsBSi8M
 
+### 🌐 Networking & Web
+- **Requests**  
+https://www.youtube.com/watch?v=Xnbef8F_Yfc
+
 ---
 
 ## 🚀 How to Use This Repository
