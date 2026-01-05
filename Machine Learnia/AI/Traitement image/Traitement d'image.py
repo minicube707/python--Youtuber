@@ -3,7 +3,6 @@ import  matplotlib.pyplot   as plt
 from    scipy       import misc
 from    PIL         import ImageFilter
 from    PIL         import Image
-from    matplotlib  import transforms
 from    scipy       import ndimage
 import os
 
@@ -227,19 +226,19 @@ Image_Color_R = Image_Color.copy()
 Image_Color_R[:,:,(1,2)] = 0
 plt.figure()
 plt.imshow(Image_Color_R)
-plt.title("Monochromatique Rouge: Photo zoommer d'un raton laveur en couleur")
+plt.title("Monochromatique Rouge")
 
 Image_Color_B = Image_Color.copy()
 Image_Color_B[:,:,(0,1)] = 0
 plt.figure()
 plt.imshow(Image_Color_B)
-plt.title("Monochromatique Bleu: Photo zoommer d'un raton laveur en couleur")
+plt.title("Monochromatique Bleu")
 
 Image_Color_V = Image_Color.copy()
 Image_Color_V[:,:,(2,2)] = 0
 plt.figure()
 plt.imshow(Image_Color_V)
-plt.title("Monochromatique Vert: Photo zoommer d'un raton laveur en couleur")
+plt.title("Monochromatique Vert")
 plt.show()
 
 #Concaténation
