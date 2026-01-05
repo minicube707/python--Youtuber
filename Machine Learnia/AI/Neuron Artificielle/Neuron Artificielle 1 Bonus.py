@@ -47,7 +47,7 @@ def artificiel_neuron(X, y, learning_rate=0.1, nb_iteration=100):
         W, b=uptade(dW, db, W, b, learning_rate)
 
     y_predic= predict(X, W, b)
-    print("La performance du neurone est ",accuracy_score(y, y_predic))
+    print("La performance du neurone est ", accuracy_score(y, y_predic))
 
     plt.figure()
     plt.plot(Loss)

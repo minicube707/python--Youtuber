@@ -120,7 +120,7 @@ def artificial_neuron(X_train_nor, y_train, learning_rate= 0.01, n_iteration= 10
 
     return (W, b)
 
-if __name__ =="__Main__":
+if __name__ =="__main__":
 
     W, b = artificial_neuron(X_train_nor, y_train)
     

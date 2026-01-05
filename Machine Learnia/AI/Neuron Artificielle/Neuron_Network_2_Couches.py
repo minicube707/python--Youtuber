@@ -194,7 +194,7 @@ def neural_network2(X_train, y_train, X_test, y_test, n1, learning_rate=0.1, n_i
 
     return parametres
 
-if __name__ == "__Main__":
+if __name__ == "__main__":
 
     #//////////////////////////////////////////////////////////////////////////
     #Dataset Circle

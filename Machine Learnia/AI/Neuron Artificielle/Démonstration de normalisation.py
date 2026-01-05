@@ -73,6 +73,7 @@ def artificial_neuron_2(X, y, learning_rate=0.1, n_iter=1000):
     
     plt.figure()
     plt.plot(np.arange(len(Loss)), Loss)
+    plt.title("Loss en fonction des itérations")
     plt.show()
 
     return history, b, Loss, Params1, Params2
@@ -118,6 +119,9 @@ print("La Dimension de L est de ",L.shape)
 plt.figure()
 plt.contourf(W11, W22, L, cmap="magma")
 plt.colorbar()
+plt.xlabel("W11")
+plt.ylabel("W22")
+plt.title("Loss en fonction de W11 et W22")
 plt.show()
 
 
@@ -148,6 +152,7 @@ def animate(params):
 plt.figure(figsize=(12, 4))
 plt.subplot(1, 2, 1)
 plt.contourf(W11, W22, L, 10, cmap='magma')
+plt.title("Loss en fonction de W11 et W22")
 plt.colorbar()
 
 #Graphique de la decente de gradient avec le chemin
@@ -157,6 +162,7 @@ plt.scatter(history[:, 0], history[:, 1], c=history[:, 2], cmap='Blues', marker=
 plt.plot(history[:, 0], history[:, 1])
 plt.plot(history[:, 0], history[:, 1], c='r')
 plt.colorbar()
+plt.title("Loss en fonction de W11 et W22 avec le suivi du gradient")
 plt.show()
 
 print("\nVeuilliez patienter que le programme termine ses calcul !!!")
