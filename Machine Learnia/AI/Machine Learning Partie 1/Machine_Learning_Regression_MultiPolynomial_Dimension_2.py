@@ -119,7 +119,7 @@ while(imprecis==True):
     print("Le coefficient de determaintion vaut ",cdet)
     print("")
 
-    if(cdet>0.9):
+    if(cdet>0.7):
         imprecis=False
     else:
         degres+=1
