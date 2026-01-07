@@ -61,6 +61,13 @@ I want to give **full credit** to the content creators whose work helped me lear
 
 ---
 
+### Nicholas Renotte
+- **YouTube:** https://www.youtube.com/c/nicholasrenotte
+- **GitHub:** https://github.com/nicknochnack
+- **Website:** https://www.nicholasrenotte.com/
+
+---
+
 ### Sentdex
 - **YouTube:** https://www.youtube.com/@sentdex  
 - **GitHub:** https://github.com/Sentdex  
