@@ -1,0 +1,16 @@
+# Environnement virtuel Python
+.venv/
+
+# Données locales
+data/
+
+# Fichiers Python inutiles
+__pycache__/
+*.py[cod]
+
+# Fichiers de configuration locaux
+.env
+.env.*
+
+# Logs
+*.log

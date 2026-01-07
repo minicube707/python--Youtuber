@@ -1,0 +1,14 @@
+[project]
+name = "cnn"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = "==3.9.*"
+dependencies = [
+    "matplotlib==3.5.1",
+    "numpy<1.23",
+    "opencv-python==4.5.5.64",
+    "protobuf<3.21",
+    "tensorflow==2.8.0",
+    "tensorflow-io-gcs-filesystem==0.24.0",
+]
