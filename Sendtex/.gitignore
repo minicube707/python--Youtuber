@@ -1,0 +1,51 @@
+# =====================
+# Dataset Kaggle
+# =====================
+kagglecatsanddogs_5340/
+MNIST
+
+# =====================
+# Modèles & checkpoints
+# =====================
+*.h5
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+models/
+
+# =====================
+# Jupyter / Kaggle
+# =====================
+.ipynb_checkpoints/
+*.ipynb~
+
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =====================
+# Environnements virtuels
+# =====================
+venv/
+.env/
+.envrc
+
+# =====================
+# Logs & sorties
+# =====================
+logs/
+outputs/
+results/
+
+# =====================
+# OS / éditeur
+# =====================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
