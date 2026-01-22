@@ -44,6 +44,8 @@ Each folder contains:
 - **Neural Networks Playlist**  
   https://www.youtube.com/watch?v=Wo5dMEP_BbI&list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3
 
+- **Pytorch Playlist**  
+  https://www.youtube.com/watch?v=BzcBsTou0C0&list=PLQVvvaa0QuDdeMyHEYc0gxFpYwHY2Qfdh
 ---
 
 ### 💰 Finance
