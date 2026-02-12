@@ -30,23 +30,23 @@ Each folder contains:
 ## 🧠 Playlists & Learning Paths
 
 ### 🤖 Machine Learning
-- **Machine Learning Playlist**  
+- **Machine Learning Playlist**  → `Machine Learning/`  
   https://www.youtube.com/watch?v=ujTCoH21GlA&list=PLzMcBGfZo4-mP7qA9cagf68V06sko5otr
 
 ### 🧠 Neural Networks
-- **Neural Network Playlist**  
+- **Neural Network Playlist**  → `Neural Networks/`  
   http://youtube.com/watch?v=OS0Ddkle0o4&list=PLzMcBGfZo4-lak7tiFDec5_ZMItiIIfmj
 
 ### 🧩 Programming Problems
-- **Programming Challenges Playlist**  
+- **Programming Challenges Playlist**  → `Programming Problem/`  
   https://www.youtube.com/watch?v=nfOCvysoTjA&list=PLzMcBGfZo4-l73euhrUu0exrXc_1HQPV0
 
-### 🎮 Game Development (Pygame)
-- **Pygame Playlist**  
+### 🎮 Game Development (Pygame) 
+- **Pygame Playlist**  → `Pygame/`  
   https://www.youtube.com/watch?v=i6xMBig-pP4&list=PLzMcBGfZo4-lp3jAExUCewBfMx3UZFkh5
 
 ### 🐍 Python Intermediate
-- **Python Intermediate Concepts**  
+- **Python Intermediate Playlist**  → `Python Intermediate/`    
   https://www.youtube.com/watch?v=0VdzZQdaZ28&list=PLzMcBGfZo4-nhWva-6OVh1yKWHBs4o_tv
 
 ---
@@ -61,16 +61,19 @@ Each folder contains:
   https://www.youtube.com/watch?v=JtiK0DOeI4A
 
 ### 🌌 Visual & Physics Projects
-- **Solar System Simulation**  
+- **Solar System Simulation**  → `Solar System/`   
   https://www.youtube.com/watch?v=WTLPmUHTPqo
 
-- **Space Invaders Game**  
+- **Space Invaders Game**  → `Space Invaders/`   
   https://www.youtube.com/watch?v=Q-__8Xw9KTM
 
 ### ⚙️ Utilities & Tools
-- **UV**  
+- **UV**  → `UV/`  
   https://www.youtube.com/watch?v=6pttmsBSi8M
 
+- **Dunder**  → `Dunder/`   
+  https://www.youtube.com/watch?v=qqp6QN20CpE
+  
 ### 🌐 Networking & Web
 - **Requests**  
 https://www.youtube.com/watch?v=Xnbef8F_Yfc
