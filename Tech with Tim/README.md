@@ -71,6 +71,9 @@ Each folder contains:
 - **UV**  → `UV/`  
   https://www.youtube.com/watch?v=6pttmsBSi8M
 
+- **Decorators**  → `Decorators/`   
+  https://www.youtube.com/watch?v=JgxCY-tbWHA
+
 - **Dunder**  → `Dunder/`   
   https://www.youtube.com/watch?v=qqp6QN20CpE
   
