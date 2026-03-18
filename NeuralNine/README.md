@@ -76,7 +76,8 @@ Each folder corresponds to a specific topic explored while learning Python and a
   https://www.youtube.com/watch?v=Ic1oE6SEOBs
 - **UV** → `UV/`  
   https://www.youtube.com/watch?v=l6WyNOIk0Ng
-
+- **Arguments** → `Argument Parsing/`  
+  https://www.youtube.com/watch?v=88pl8TuuKz0
 ---
 
 ### 🌐 Networking & Web
