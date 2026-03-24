@@ -87,6 +87,8 @@ Each folder corresponds to a specific topic explored while learning Python and a
   https://www.youtube.com/watch?v=m_3gjHGxIJc
 - **Requests** → `Requests/`  
 https://www.youtube.com/watch?v=Xi1F2ZMAZ7Q
+- **HTTP Server** → `HTTP Server/`  
+https://www.youtube.com/watch?v=DeFST8tvtuI
 
 ---
 
