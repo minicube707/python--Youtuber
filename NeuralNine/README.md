@@ -21,6 +21,12 @@ Each folder corresponds to a specific topic explored while learning Python and a
 
 ---
 
+## 🧠 Playlists & Learning Paths
+
+### 🪄 Magic Method
+- **Magic Method Playlist**  → `Magic Method/`  
+ https://www.youtube.com/watch?v=KSiRzuSx120&list=PL7yh-TELLS1FuqLSjl5bgiQIEH25VEmIc
+
 ## 🧠 Topics & Resources
 
 ### 🔐 Cryptography & Security
