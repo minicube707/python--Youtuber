@@ -56,7 +56,8 @@ Each folder corresponds to a specific topic explored while learning Python and a
   https://www.youtube.com/watch?v=lABJscdhsr8
 - **NVIDIA GPU Acceleration** → `NVIDIA GPUs Accelerate/`  
   https://www.youtube.com/watch?v=QxlvD_yEgz8
-
+-**Cuda** → `Cuda/`
+  https://www.youtube.com/watch?v=zSCdTOKrnII
 ---
 
 ### 🤖 Machine Learning & AI
