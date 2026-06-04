@@ -45,6 +45,9 @@ Each folder contains:
 - **Pygame Playlist**  → `Pygame/`  
   https://www.youtube.com/watch?v=i6xMBig-pP4&list=PLzMcBGfZo4-lp3jAExUCewBfMx3UZFkh5
 
+- **Car Racing**  → `Car Racing/`  
+  https://www.youtube.com/watch?v=L3ktUWfAMPg&list=PLzMcBGfZo4-kmY7Nh4kI9kPPnxJ5JMRPj
+
 ### 🐍 Python Intermediate
 - **Python Intermediate Playlist**  → `Python Intermediate/`    
   https://www.youtube.com/watch?v=0VdzZQdaZ28&list=PLzMcBGfZo4-nhWva-6OVh1yKWHBs4o_tv
