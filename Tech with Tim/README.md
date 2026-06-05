@@ -52,6 +52,10 @@ Each folder contains:
 - **Python Intermediate Playlist**  → `Python Intermediate/`    
   https://www.youtube.com/watch?v=0VdzZQdaZ28&list=PLzMcBGfZo4-nhWva-6OVh1yKWHBs4o_tv
 
+### 🌐 Networking & Web
+- **Beautiful Soup**  → `Beautiful Soup/`  
+  https://www.youtube.com/watch?v=gRLHr664tXA&list=PLzMcBGfZo4-lSq2IDrA6vpZEV92AmQfJK
+
 ---
 
 ## 🎥 Individual Projects & Videos
