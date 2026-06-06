@@ -3,8 +3,11 @@ import time
 import math
 
 from utils import scale_image, blit_rotate_center, blit_text_center
+
+pygame.init()
 pygame.font.init()
- 
+
+
 GRASS = scale_image(pygame.image.load("../imgs/grass.jpg"), 2.5)
 TRACK = scale_image(pygame.image.load("../imgs/track.png"), 0.9)
 
@@ -15,7 +18,7 @@ FINISH_POSITION = (130, 250)
 FINISH_MASK = pygame.mask.from_surface(FINISH)
 
 RED_CAR = scale_image(pygame.image.load("../imgs/red-car.png"), 0.55)
-GRENN_CAR = scale_image(pygame.image.load("../imgs/green-car.png"), 0.55)
+GREEN_CAR = scale_image(pygame.image.load("../imgs/green-car.png"), 0.55)
 
 WIDTH, HEIGHT = TRACK.get_width(), TRACK.get_height()
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
@@ -46,7 +49,7 @@ class GameInfo():
         self.level_start_time = time.time()
     
     def get_level_time(self):
-        if not self.start_level:
+        if not self.started:
             return 0
         return time.time() - self.level_start_time
     
@@ -108,7 +111,7 @@ class PlayerCar(AbstractCar):
         self.move()
 
 class ComputerCar(AbstractCar):
-    IMG = GRENN_CAR
+    IMG = GREEN_CAR
     START_POS = (150, 200)
     
     def __init__(self, max_vel, rotation_vel, path=[]):
@@ -292,12 +295,13 @@ while run:
         for event in pygame.event.get():
         
             if event.type == pygame.QUIT:
-                pygame.quit()
+                run = False
                 break
         
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_ESCAPE:
-                   pygame.quit()
+                    run = False
+                    break
 
                 else:
                     game_info.start_level()
@@ -322,7 +326,7 @@ while run:
     
     handle_collision(player_car, computer_car, game_info)
 
-    if game_info.game_finished:
+    if game_info.game_finished():
         blit_text_center(WIN, MAIN_FONT, "You win !")
         pygame.display.update()
         pygame.time.wait(5000)
