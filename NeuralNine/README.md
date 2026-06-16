@@ -101,7 +101,8 @@ https://www.youtube.com/watch?v=Xi1F2ZMAZ7Q
 https://www.youtube.com/watch?v=DeFST8tvtuI
 - **Proxy Servers** → `Proxy Servers/`  
 https://www.youtube.com/watch?v=nnIye9pM22w
-
+- **Rotating Proxies** → `Rotating Proxies/`  
+https://www.youtube.com/watch?v=FbtCl9jJyyc
 ---
 
 ### 🎮 Projects & Utilities
