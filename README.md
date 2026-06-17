@@ -78,7 +78,7 @@ I want to give **full credit** to the content creators whose work helped me lear
 ### Tech With Tim
 - **YouTube:** https://www.youtube.com/@TechWithTim  
 - **GitHub:** https://github.com/techwithtim  
-- **Website:** https://training.devlaunch.us/tim?website=tim-yt-bio  
+- **Website:** https://www.techwithtim.net/
 
 ---
 
