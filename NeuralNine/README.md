@@ -103,6 +103,8 @@ https://www.youtube.com/watch?v=DeFST8tvtuI
 https://www.youtube.com/watch?v=nnIye9pM22w
 - **Rotating Proxies** → `Rotating Proxies/`  
 https://www.youtube.com/watch?v=FbtCl9jJyyc
+- **Web Scraping Docker** → `Web Scraping Docker/`  
+https://www.youtube.com/watch?v=xrYDlx8evR0
 ---
 
 ### 🎮 Projects & Utilities
