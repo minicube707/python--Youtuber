@@ -56,6 +56,9 @@ Each folder contains:
 - **Beautiful Soup**  → `Beautiful Soup/`  
   https://www.youtube.com/watch?v=gRLHr664tXA&list=PLzMcBGfZo4-lSq2IDrA6vpZEV92AmQfJK
 
+- **Selenium Playlist**  → `Selenium Playlist/`  
+  https://www.youtube.com/watch?v=Xjv1sY630Uc&list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ
+
 ---
 
 ## 🎥 Individual Projects & Videos
@@ -85,9 +88,11 @@ Each folder contains:
   https://www.youtube.com/watch?v=qqp6QN20CpE
   
 ### 🌐 Networking & Web
-- **Requests**  
+- **Requests** → `Requests/`    
 https://www.youtube.com/watch?v=Xnbef8F_Yfc
 
+- **Selenium Tutorial**  → `Selenium Tutorial`   
+https://www.youtube.com/watch?v=NB8OceGZGjA
 ---
 
 ## 🚀 How to Use This Repository
