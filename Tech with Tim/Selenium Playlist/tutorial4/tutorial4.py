@@ -1,11 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-
-from selenium.webdriver.common.action_chains import ActionChains
 
 from utils import get_env
 from pathlib import Path
@@ -35,7 +30,7 @@ store_div = driver.find_element(By.ID, "store")
 previous_html = store_div.get_attribute("innerHTML")
 
 # Main automation loop (simulates continuous clicking and buying upgrades)
-for i in range(5000):
+while True:
 
     # Click the big cookie to generate cookies
     cookie.click()
