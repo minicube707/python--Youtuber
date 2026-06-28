@@ -30,7 +30,13 @@ https://www.youtube.com/watch?v=IEEhzQoKtQU
 
 ---
 
-### 🧪 Python Internals & Extensions
+### 🧪 Testing & Quality
+- **Unit Test** → `Unit Test/`  
+  https://www.youtube.com/watch?v=6tNS--WetLI
+
+---
+
+### 🧠 Python Internals & Extensions
 - **UV** → `UV/`  
 https://www.youtube.com/watch?v=AMdG7IjgSPM
 
