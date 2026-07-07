@@ -113,6 +113,9 @@ https://www.youtube.com/watch?v=FbtCl9jJyyc
 https://www.youtube.com/watch?v=myAFVM7CxWk
 - **Web Scraping Docker** → `Web Scraping Docker/`  
 https://www.youtube.com/watch?v=xrYDlx8evR0
+- **Web Scraping Selenium** → `Web Scraping Selenium/`  
+https://www.youtube.com/watch?v=SPM1tm2ZdK4
+
 ---
 
 ### 🎮 Projects & Utilities
