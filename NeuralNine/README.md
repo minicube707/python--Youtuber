@@ -115,6 +115,8 @@ https://www.youtube.com/watch?v=myAFVM7CxWk
 https://www.youtube.com/watch?v=xrYDlx8evR0
 - **Web Scraping Selenium** → `Web Scraping Selenium/`  
 https://www.youtube.com/watch?v=SPM1tm2ZdK4
+- **Web Scraping XPath** → `Web Scraping XPath/`  
+https://www.youtube.com/watch?v=jraDTvKLLvY
 
 ---
 
