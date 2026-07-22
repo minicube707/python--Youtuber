@@ -1,0 +1,6 @@
+total 4
+drwxrwxrwx 1 flore flore  512 Jul 22 23:52 .
+drwxrwxrwx 1 flore flore  512 Jul 22 23:16 ..
+-rwxrwxrwx 1 flore flore    0 Jul 23  2026 output.txt
+-rwxrwxrwx 1 flore flore 3432 Jul 23 00:11 sp-demo.py
+-rwxrwxrwx 1 flore flore   33 Jul 22 23:52 test.txt
