@@ -25,7 +25,7 @@ Each folder corresponds to a specific topic explored while learning Python and a
 ## 🧠 Topics & Resources
 
 ### ⚙️ Concurrency & Performance
-- **Threading** → `Threading/`  
+- **Thread** → `Thread/`  
 https://www.youtube.com/watch?v=IEEhzQoKtQU
 - **Subprocess** → `Subprocess/`  
 https://www.youtube.com/watch?v=2Fp1N6dof0Y
