@@ -37,7 +37,8 @@ I want to give **full credit** to the content creators whose work helped me lear
 
 ### Corey Schafer
 - **YouTube:** https://www.youtube.com/@coreyms  
-- **Website:** https://coreyms.com/support/  
+- **Website:** https://coreyms.com/support/
+- **GitHub:** https://github.com/CoreyMSchafer
 
 ---
 
