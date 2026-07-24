@@ -1,3 +1,4 @@
+import os
 import time
 import threading
 import concurrent.futures
@@ -40,6 +41,19 @@ def return_value(seconds):
     print(f"Done Sleeping in {seconds} second(s)...")
     return "hello_world"
 
+
+# ============================================================
+# Thread Information
+# Displays CPU information and the number of active threads.
+# Useful for understanding the threading environment.
+# ============================================================
+
+"""Display information about CPUs and active threads."""
+print("Thread Information")
+print(f"Logical CPUs : {os.cpu_count()}")
+print(f"Physical CPUs: {os.process_cpu_count()}")
+print(f"Active threads: {threading.active_count()}")
+    
 
 # ============================================================
 # Example 1: Sequential execution (single thread)
