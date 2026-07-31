@@ -1,0 +1,12 @@
+# --- Git Configuration ---
+# The .gitignore file tells Git which files or folders to ignore in the repository.
+# Its primary purpose is security: it prevents sensitive information (like API keys)
+# from being leaked. It also keeps the project clean by ignoring local,
+# temporary, or system-specific files.
+
+# Web site to generate .gitignore file
+# https://www.toptal.com/developers/gitignore
+
+# --- Ignored Files ---
+# Ensure that sensitive configuration is never pushed to the repository.
+.env

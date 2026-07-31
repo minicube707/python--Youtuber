@@ -49,7 +49,9 @@ https://www.youtube.com/watch?v=AMdG7IjgSPM
 
 ### 🌐 Networking & Web
 - **Requests** → `Requests/`  
-https://www.youtube.com/watch?v=tb8gHvYlCFs
+https://www.youtube.com/watch?v=tb8gHvYlCFs  
+- **DotEnv** → `DotEnv/`  
+https://www.youtube.com/watch?v=PYuTzLswn_Y
 
 ---
 
