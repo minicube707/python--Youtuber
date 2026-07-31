@@ -93,6 +93,13 @@ https://www.youtube.com/watch?v=Xnbef8F_Yfc
 
 - **Selenium Tutorial**  → `Selenium Tutorial`   
 https://www.youtube.com/watch?v=NB8OceGZGjA
+
+---
+
+### 🦙 Ollama
+- **Ollama Tutorial** → `Ollama Tutorial/`
+https://www.youtube.com/watch?v=UtSSMs6ObqY
+
 ---
 
 ## 🚀 How to Use This Repository
