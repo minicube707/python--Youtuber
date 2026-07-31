@@ -97,8 +97,10 @@ https://www.youtube.com/watch?v=NB8OceGZGjA
 ---
 
 ### 🦙 Ollama
-- **Ollama Tutorial** → `Ollama Tutorial/`
+- **Ollama Tutorial** → `Ollama Tutorial/`  
 https://www.youtube.com/watch?v=UtSSMs6ObqY
+- **LocalAIAgentWithRAG** → `LocalAIAgentWithRAG/`  
+https://www.youtube.com/watch?v=E4l91XKQSgw
 
 ---
 
