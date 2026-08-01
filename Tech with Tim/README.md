@@ -101,7 +101,8 @@ https://www.youtube.com/watch?v=NB8OceGZGjA
 https://www.youtube.com/watch?v=UtSSMs6ObqY
 - **LocalAIAgentWithRAG** → `LocalAIAgentWithRAG/`  
 https://www.youtube.com/watch?v=E4l91XKQSgw
-
+- **MCP Server** → ` MCP Server/`  
+https://www.youtube.com/watch?v=-8k9lGpGQ6g
 ---
 
 ## 🚀 How to Use This Repository
