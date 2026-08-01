@@ -99,7 +99,7 @@ https://www.youtube.com/watch?v=NB8OceGZGjA
 ### 🦙 Ollama
 - **Ollama Tutorial** → `Ollama Tutorial/`  
 https://www.youtube.com/watch?v=UtSSMs6ObqY
-- **LocalAIAgentWithRAG** → `LocalAIAgentWithRAG/`  
+- **Local AI Agent With RAG** → `Local AI Agent With RAG/`  
 https://www.youtube.com/watch?v=E4l91XKQSgw
 - **MCP Server** → ` MCP Server/`  
 https://www.youtube.com/watch?v=-8k9lGpGQ6g
