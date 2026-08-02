@@ -4,7 +4,7 @@ import ollama
 from fastmcp import Client
 
 MODEL = "qwen3.5:9b"                  # Change to your model on ollama
-SERVER = "server_notes.py"            # Change between "server_math.py" and "server_notes.py"
+SERVER = "server_math.py"             # Change between "server_math.py", "server_notes.py" and "server_weather.py
 
 
 # ---------------------------------------------------------------------------
