@@ -3,8 +3,8 @@ import asyncio
 import ollama
 from fastmcp import Client
 
-MODEL = "qwen3.5:9b"                  # Change to your model on ollama
-SERVER = "server_math.py"             # Change between "server_math.py", "server_notes.py" and "server_weather.py
+MODEL = "qwen3.5:0.8b"                  # Change to your model on ollama
+SERVER = "server_maths.py"              # Change between "server_maths.py", "server_notes.py" and "server_weather.py
 
 
 # ---------------------------------------------------------------------------
