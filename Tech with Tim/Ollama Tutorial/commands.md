@@ -23,4 +23,17 @@ These are the standard commands used to manage your local models and the environ
 | `ollama help` / `-h` | Displays a list of all available commands and options. | `ollama -h` |
 
 ---
+
+## 2. Common `ollama run` Arguments
+
+The `run` command accepts several useful options to control model behavior.
+
+| Argument | Description | Example |
+| :--- | :--- | :--- |
+| `--verbose` | Displays additional execution details (tokens, timings, debug information). | `ollama run llama3 --verbose` |
+| `--think <true\|false>` | Enables or disables the model's reasoning mode (only for models that support thinking). | `ollama run qwen3 --think true` |
+| `--hidethinking` | Hides the reasoning output while still allowing the model to reason internally. | `ollama run qwen3 --think true --hidethinking` |
+
+---
 *Note: Replace `llama3` with the specific model name you have downloaded.*
+
