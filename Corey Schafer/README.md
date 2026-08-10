@@ -38,6 +38,9 @@ https://www.youtube.com/watch?v=tJxcKyFMTGo
 ### 🧪 Testing & Quality
 - **Unit Test** → `Unit Test/`  
   https://www.youtube.com/watch?v=6tNS--WetLI
+- **Logging Basic** → `Logging Basic/`  
+  https://www.youtube.com/watch?v=-ARI4Cz-awo
+
 
 ---
 
