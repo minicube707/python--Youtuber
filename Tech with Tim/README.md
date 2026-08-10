@@ -86,7 +86,10 @@ Each folder contains:
 
 - **Dunder**  → `Dunder/`   
   https://www.youtube.com/watch?v=qqp6QN20CpE
-  
+
+- **Logging**  → `Logging/`   
+  https://www.youtube.com/watch?v=urrfJgHwIJA
+
 ### 🌐 Networking & Web
 - **Requests** → `Requests/`    
 https://www.youtube.com/watch?v=Xnbef8F_Yfc
