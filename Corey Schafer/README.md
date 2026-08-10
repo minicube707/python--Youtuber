@@ -40,7 +40,8 @@ https://www.youtube.com/watch?v=tJxcKyFMTGo
   https://www.youtube.com/watch?v=6tNS--WetLI
 - **Logging Basic** → `Logging Basic/`  
   https://www.youtube.com/watch?v=-ARI4Cz-awo
-
+- **Logging Advanced** → `Logging Advanced/`  
+  https://www.youtube.com/watch?v=jxmzY9soFXg
 
 ---
 
