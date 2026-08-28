@@ -110,6 +110,8 @@ https://www.youtube.com/watch?v=-8k9lGpGQ6g
 https://www.youtube.com/watch?v=mrjq3lFz23s
 - **AI Agent** → `AI Agent/`  
 https://www.youtube.com/watch?v=bTMPwUgLZf0
+- **Langchain Transformers** → `Langchain Transformers/`  
+https://www.youtube.com/watch?v=1h6lfzJ0wZw
 ---
 
 ## 🚀 How to Use This Repository
