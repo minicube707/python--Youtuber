@@ -108,6 +108,8 @@ https://www.youtube.com/watch?v=E4l91XKQSgw
 https://www.youtube.com/watch?v=-8k9lGpGQ6g
 - **LangChain** → `LangChain/`  
 https://www.youtube.com/watch?v=mrjq3lFz23s
+- **AI Agent** → `AI Agent/`  
+https://www.youtube.com/watch?v=bTMPwUgLZf0
 ---
 
 ## 🚀 How to Use This Repository
