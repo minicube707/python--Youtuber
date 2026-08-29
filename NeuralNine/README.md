@@ -69,6 +69,8 @@ Each folder corresponds to a specific topic explored while learning Python and a
   https://www.youtube.com/watch?v=9GJ6XeB-vMg
 - **Hugging Face** → `Hugging Face/`  
   https://www.youtube.com/watch?v=1AUjKfpRZVo
+- **Crash Course LangChain** → `Crash Course LangChain/`  
+  https://www.youtube.com/watch?v=J7j5tCB_y4w
 ---
 
 ### 📊 Data Visualization
