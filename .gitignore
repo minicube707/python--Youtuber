@@ -1,3 +1,10 @@
+# Python
 __pycache__
 
+# Environment variables
 .env
+
+# UV
+.python-version
+uv.lock
+pyproject.toml
