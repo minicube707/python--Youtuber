@@ -102,7 +102,8 @@ Each folder corresponds to a specific topic explored while learning Python and a
   https://www.youtube.com/watch?v=lVUOrPunRxQ
 - **Modules, Packages, Libraries** → `Modules Vs Packages Vs Libraries/`   
   https://www.youtube.com/watch?v=GUXxLy68EF8
-  
+- **Scheduling Tasks** → `Scheduling Tasks/`  
+  https://www.youtube.com/watch?v=yDPQfj4bZY8 
 ---
 
 ### 🌐 Networking & Web
