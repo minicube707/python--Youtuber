@@ -126,7 +126,8 @@ https://www.youtube.com/watch?v=xrYDlx8evR0
 https://www.youtube.com/watch?v=SPM1tm2ZdK4
 - **Web Scraping XPath** → `Web Scraping XPath/`  
 https://www.youtube.com/watch?v=jraDTvKLLvY
-
+- **Search Engine** → `Search Engine/`  
+https://www.youtube.com/watch?v=H-Cgag672nU 
 ---
 
 ### 🎮 Projects & Utilities
