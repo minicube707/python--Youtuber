@@ -140,7 +140,8 @@ https://www.youtube.com/watch?v=H-Cgag672nU
   https://www.youtube.com/watch?v=5x6iAKdJB6U
 - **Progress Bar** → `Progress Bar/`  
   https://www.youtube.com/watch?v=x1eaT88vJUA
-
+- **Cellular Automata** → `Cellular Automata/`  
+  https://www.youtube.com/watch?v=9mESkRIsj10
 ---
 
 ## 🚀 How to Use This Repository
