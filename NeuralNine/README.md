@@ -60,6 +60,8 @@ Each folder corresponds to a specific topic explored while learning Python and a
   https://www.youtube.com/watch?v=zSCdTOKrnII
 - **Memory Profiling** → `Memory Profiling/`  
   https://www.youtube.com/watch?v=3PdmLQIZpwE
+- **Hardware Information** → `Hardware Information/`  
+  https://www.youtube.com/watch?v=_9ThkldEg0c
 ---
 
 ### 🤖 Machine Learning & AI
