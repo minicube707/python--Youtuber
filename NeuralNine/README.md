@@ -77,6 +77,9 @@ Each folder corresponds to a specific topic explored while learning Python and a
   https://www.youtube.com/watch?v=J7j5tCB_y4w
 - **Local AI Agent** → `Local AI Agent/`  
   https://www.youtube.com/watch?v=9mLzD997JsU
+- **Sentiment Analysis** → `Sentiment Analysis/`  
+  https://www.youtube.com/watch?v=tXuvh5_Xyrw
+
 ---
 
 ### 📊 Data Visualization
@@ -116,23 +119,23 @@ Each folder corresponds to a specific topic explored while learning Python and a
 - **Web Crawler** → `Crawler/`  
   https://www.youtube.com/watch?v=m_3gjHGxIJc
 - **Requests** → `Requests/`  
-https://www.youtube.com/watch?v=Xi1F2ZMAZ7Q
+  https://www.youtube.com/watch?v=Xi1F2ZMAZ7Q
 - **HTTP Server** → `HTTP Server/`  
-https://www.youtube.com/watch?v=DeFST8tvtuI
+  https://www.youtube.com/watch?v=DeFST8tvtuI
 - **Proxy Servers** → `Proxy Servers/`  
-https://www.youtube.com/watch?v=nnIye9pM22w
+  https://www.youtube.com/watch?v=nnIye9pM22w
 - **Rotating Proxies** → `Rotating Proxies/`  
-https://www.youtube.com/watch?v=FbtCl9jJyyc
+  https://www.youtube.com/watch?v=FbtCl9jJyyc
 - **Web Scraping** → `Web Scraping/`  
-https://www.youtube.com/watch?v=myAFVM7CxWk
+  https://www.youtube.com/watch?v=myAFVM7CxWk
 - **Web Scraping Docker** → `Web Scraping Docker/`  
-https://www.youtube.com/watch?v=xrYDlx8evR0
+  https://www.youtube.com/watch?v=xrYDlx8evR0
 - **Web Scraping Selenium** → `Web Scraping Selenium/`  
-https://www.youtube.com/watch?v=SPM1tm2ZdK4
+  https://www.youtube.com/watch?v=SPM1tm2ZdK4
 - **Web Scraping XPath** → `Web Scraping XPath/`  
-https://www.youtube.com/watch?v=jraDTvKLLvY
+  https://www.youtube.com/watch?v=jraDTvKLLvY
 - **Search Engine** → `Search Engine/`  
-https://www.youtube.com/watch?v=H-Cgag672nU 
+  https://www.youtube.com/watch?v=H-Cgag672nU 
 ---
 
 ### 🎮 Projects & Utilities
