@@ -81,6 +81,8 @@ Each folder corresponds to a specific topic explored while learning Python and a
   https://www.youtube.com/watch?v=tXuvh5_Xyrw
 - **Financial Sentiment Analysis** → `Financial Sentiment Analysis/`  
   https://www.youtube.com/watch?v=EeoCcjPuJwE
+- **Sentiment Analysis Transformers** → `Sentiment Analysis Transformers/`  
+  https://www.youtube.com/watch?v=cXWuSWX0Va0
 ---
 
 ### 📊 Data Visualization
