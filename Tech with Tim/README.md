@@ -108,7 +108,7 @@ https://www.youtube.com/watch?v=E4l91XKQSgw
 https://www.youtube.com/watch?v=-8k9lGpGQ6g
 - **LangChain** → `LangChain/`  
 https://www.youtube.com/watch?v=mrjq3lFz23s
-- **AI Agent** → `AI Agent/`  
+- **AI Agent with LangChain** → `AI Agent with LangChain/`  
 https://www.youtube.com/watch?v=bTMPwUgLZf0
 - **Langchain Transformers** → `Langchain Transformers/`  
 https://www.youtube.com/watch?v=1h6lfzJ0wZw
