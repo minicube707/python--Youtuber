@@ -110,6 +110,8 @@ https://www.youtube.com/watch?v=-8k9lGpGQ6g
 https://www.youtube.com/watch?v=mrjq3lFz23s
 - **AI Agent with LangChain** → `AI Agent with LangChain/`  
 https://www.youtube.com/watch?v=bTMPwUgLZf0
+- **AI Agent with Pydantic** → `AI Agent with Pydantic/`  
+https://www.youtube.com/watch?v=ByWCsa8DbF8
 - **Langchain Transformers** → `Langchain Transformers/`  
 https://www.youtube.com/watch?v=1h6lfzJ0wZw
 ---
