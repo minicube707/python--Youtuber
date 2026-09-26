@@ -67,7 +67,7 @@ Each folder corresponds to a specific topic explored while learning Python and a
 ### 🤖 Machine Learning & AI
 - **PyTorch CNN** → `Pytorch CNN/`  
   https://www.youtube.com/watch?v=CtzfbUwrYGI
-- **TensorFlow** → `Tensorflow/`  
+- **TensorFlow Handwritten Digit Recognition** → `Tensorflow Handwritten Digit Recognition/`  
   https://www.youtube.com/watch?v=bte8Er0QhDg
 - **Speech Recognition** → `Speech Recognition/`  
   https://www.youtube.com/watch?v=9GJ6XeB-vMg
