@@ -71,6 +71,8 @@ Each folder corresponds to a specific topic explored while learning Python and a
   https://www.youtube.com/watch?v=uq7sbUlIDR8
 - **TensorFlow Handwritten Digit Recognition** → `Tensorflow Handwritten Digit Recognition/`  
   https://www.youtube.com/watch?v=bte8Er0QhDg
+- **Crash Course Tensorflow** → `Crash Course Tensorflow/`  
+  https://www.youtube.com/watch?v=72s6hJwyfDg
 - **Speech Recognition** → `Speech Recognition/`  
   https://www.youtube.com/watch?v=9GJ6XeB-vMg
 - **Hugging Face** → `Hugging Face/`  
