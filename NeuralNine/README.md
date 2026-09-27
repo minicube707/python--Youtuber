@@ -87,6 +87,8 @@ Each folder corresponds to a specific topic explored while learning Python and a
   https://www.youtube.com/watch?v=EeoCcjPuJwE
 - **Sentiment Analysis Transformers** → `Sentiment Analysis Transformers/`  
   https://www.youtube.com/watch?v=cXWuSWX0Va0
+  - **Crash Course Pydantic** → `Crash Course Pydantic/`  
+  https://www.youtube.com/watch?v=pXktHVUpXUc
 ---
 
 ### 📊 Data Visualization
