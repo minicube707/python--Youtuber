@@ -92,28 +92,31 @@ Each folder contains:
 
 ### 🌐 Networking & Web
 - **Requests** → `Requests/`    
-https://www.youtube.com/watch?v=Xnbef8F_Yfc
+  https://www.youtube.com/watch?v=Xnbef8F_Yfc
 
 - **Selenium Tutorial**  → `Selenium Tutorial`   
-https://www.youtube.com/watch?v=NB8OceGZGjA
+  https://www.youtube.com/watch?v=NB8OceGZGjA
 
 ---
 
 ### 🦙 LLM
 - **Ollama Tutorial** → `Ollama Tutorial/`  
-https://www.youtube.com/watch?v=UtSSMs6ObqY
+  https://www.youtube.com/watch?v=UtSSMs6ObqY
 - **Local AI Agent With RAG** → `Local AI Agent With RAG/`  
-https://www.youtube.com/watch?v=E4l91XKQSgw
+  https://www.youtube.com/watch?v=E4l91XKQSgw
 - **MCP Server** → `MCP Server/`  
-https://www.youtube.com/watch?v=-8k9lGpGQ6g
+  https://www.youtube.com/watch?v=-8k9lGpGQ6g
 - **LangChain** → `LangChain/`  
-https://www.youtube.com/watch?v=mrjq3lFz23s
+  https://www.youtube.com/watch?v=mrjq3lFz23s
 - **AI Agent with LangChain** → `AI Agent with LangChain/`  
-https://www.youtube.com/watch?v=bTMPwUgLZf0
+  https://www.youtube.com/watch?v=bTMPwUgLZf0
 - **AI Agent with Pydantic** → `AI Agent with Pydantic/`  
-https://www.youtube.com/watch?v=ByWCsa8DbF8
+  https://www.youtube.com/watch?v=ByWCsa8DbF8
 - **Langchain Transformers** → `Langchain Transformers/`  
-https://www.youtube.com/watch?v=1h6lfzJ0wZw
+  https://www.youtube.com/watch?v=1h6lfzJ0wZw
+- **Agentic Harness** → `Agentic Harness/`  
+  https://www.youtube.com/watch?v=H5o1P8RMiMw
+
 ---
 
 ## 🚀 How to Use This Repository
