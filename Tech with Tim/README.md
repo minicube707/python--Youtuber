@@ -66,36 +66,38 @@ Each folder contains:
 ### 🧪 Simulations & Algorithms
 - **Conway’s Game of Life** → `Conway Game/`  
   https://www.youtube.com/watch?v=YDKuknw9WGs
-
 - **Maze Generator & Solver** → `Maze/`  
   https://www.youtube.com/watch?v=JtiK0DOeI4A
+
+---
 
 ### 🌌 Visual & Physics Projects
 - **Solar System Simulation**  → `Solar System/`   
   https://www.youtube.com/watch?v=WTLPmUHTPqo
-
 - **Space Invaders Game**  → `Space Invaders/`   
   https://www.youtube.com/watch?v=Q-__8Xw9KTM
+
+---
 
 ### ⚙️ Utilities & Tools
 - **UV**  → `UV/`  
   https://www.youtube.com/watch?v=6pttmsBSi8M
-
 - **Decorators**  → `Decorators/`   
   https://www.youtube.com/watch?v=JgxCY-tbWHA
-
 - **Dunder**  → `Dunder/`   
   https://www.youtube.com/watch?v=qqp6QN20CpE
-
 - **Logging**  → `Logging/`   
   https://www.youtube.com/watch?v=urrfJgHwIJA
+
+---
 
 ### 🌐 Networking & Web
 - **Requests** → `Requests/`    
   https://www.youtube.com/watch?v=Xnbef8F_Yfc
-
 - **Selenium Tutorial**  → `Selenium Tutorial`   
   https://www.youtube.com/watch?v=NB8OceGZGjA
+- **Socket**  → `Socket`   
+  https://www.youtube.com/watch?v=3QiPPX-KeSc
 
 ---
 
