@@ -145,9 +145,9 @@ Each folder corresponds to a specific topic explored while learning Python and a
   https://www.youtube.com/watch?v=jraDTvKLLvY
 - **Search Engine** → `Search Engine/`  
   https://www.youtube.com/watch?v=H-Cgag672nU 
-- **TCP Chat Room** → `TCP Chat Room/`
+- **TCP Chat Room** → `TCP Chat Room/`  
   https://www.youtube.com/watch?v=3UOyky9sEQY
-- **TCP vs UDP** → `TCP vs UDP/`
+- **TCP vs UDP** → `TCP vs UDP/`  
   https://www.youtube.com/watch?v=esLgiMLbRkI
 
 ---
