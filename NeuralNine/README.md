@@ -153,6 +153,8 @@ Each folder corresponds to a specific topic explored while learning Python and a
   https://www.youtube.com/watch?v=esLgiMLbRkI
 - **WHOIS Domain** → `WHOIS Domain/`  
   https://www.youtube.com/watch?v=bQ0iQblgnbI
+- **Bandwidth Monitor** → `Bandwidth Monitor/`  
+  https://www.youtube.com/watch?v=O76lnYFvbTU
 
 ---
 
