@@ -151,6 +151,8 @@ Each folder corresponds to a specific topic explored while learning Python and a
   https://www.youtube.com/watch?v=F_JDA96AdEI
 - **TCP vs UDP** → `TCP vs UDP/`  
   https://www.youtube.com/watch?v=esLgiMLbRkI
+- **WHOIS Domain** → `WHOIS Domain/`  
+  https://www.youtube.com/watch?v=bQ0iQblgnbI
 
 ---
 
