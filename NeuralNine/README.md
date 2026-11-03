@@ -40,6 +40,8 @@ Each folder corresponds to a specific topic explored while learning Python and a
   https://www.youtube.com/watch?v=D_PfV_IcUdA
 - **QR Code** → `QRcode/`  
   https://www.youtube.com/watch?v=l4ugfcj7qrI
+- **UUIDs** → `UUIDs/`  
+  https://www.youtube.com/watch?v=2zsxlA0OPrY
 
 ---
 
