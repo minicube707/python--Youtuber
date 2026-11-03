@@ -42,6 +42,8 @@ Each folder corresponds to a specific topic explored while learning Python and a
   https://www.youtube.com/watch?v=l4ugfcj7qrI
 - **UUIDs** → `UUIDs/`  
   https://www.youtube.com/watch?v=2zsxlA0OPrY
+- **Encrypted Chat** → `Encrypted Chat/`  
+  https://www.youtube.com/watch?v=U_Q1vqaJi34
 
 ---
 
