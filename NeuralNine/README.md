@@ -64,6 +64,9 @@ Each folder corresponds to a specific topic explored while learning Python and a
   https://www.youtube.com/watch?v=3PdmLQIZpwE
 - **Hardware Information** → `Hardware Information/`  
   https://www.youtube.com/watch?v=_9ThkldEg0c
+- **CPU & RAM Usage Monitor** → `CPU & RAM Usage Monitor/`  
+  https://www.youtube.com/watch?v=rdxt6ntfX24
+
 ---
 
 ### 🤖 Machine Learning & AI
