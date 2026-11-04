@@ -162,6 +162,8 @@ Each folder corresponds to a specific topic explored while learning Python and a
   https://www.youtube.com/watch?v=bQ0iQblgnbI
 - **Bandwidth Monitor** → `Bandwidth Monitor/`  
   https://www.youtube.com/watch?v=O76lnYFvbTU
+- **Internet Speed Test** → `Internet Speed Test/`  
+  https://www.youtube.com/watch?v=sPq8a1MUgr0
 
 ---
 
