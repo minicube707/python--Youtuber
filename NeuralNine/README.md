@@ -168,6 +168,8 @@ Each folder corresponds to a specific topic explored while learning Python and a
   https://www.youtube.com/watch?v=qFVoMo6OMsQ
 - **Encrypted File Transfer** → `Encrypted File Transfer/`  
   https://www.youtube.com/watch?v=wJanjCfyhAk
+- **HTTPX** → `HTTPX/`  
+  https://www.youtube.com/watch?v=mrtsk9B9_Ho
 
 ---
 
