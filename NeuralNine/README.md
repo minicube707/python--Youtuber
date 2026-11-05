@@ -109,6 +109,8 @@ Each folder corresponds to a specific topic explored while learning Python and a
 ### 🧪 Testing & Quality
 - **Unit Test** → `Unit Test/`  
   https://www.youtube.com/watch?v=UL0opWf3DeM
+- **Shutil** → `Shutil/`  
+  https://www.youtube.com/watch?v=sXzezIK0d7c
 
 ---
 
