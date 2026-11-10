@@ -48,6 +48,9 @@ Each folder contains:
 - **Car Racing**  → `Car Racing/`  
   https://www.youtube.com/watch?v=L3ktUWfAMPg&list=PLzMcBGfZo4-kmY7Nh4kI9kPPnxJ5JMRPj
 
+- **Online Game**  → `Online Game/`  
+  https://www.youtube.com/watch?v=_fx7FQ3SP0U&list=PLzMcBGfZo4-kR7Rh-7JCVDN8lm3Utumvq
+
 ### 🐍 Python Intermediate
 - **Python Intermediate Playlist**  → `Python Intermediate/`    
   https://www.youtube.com/watch?v=0VdzZQdaZ28&list=PLzMcBGfZo4-nhWva-6OVh1yKWHBs4o_tv
