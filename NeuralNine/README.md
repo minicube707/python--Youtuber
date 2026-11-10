@@ -96,6 +96,9 @@ Each folder corresponds to a specific topic explored while learning Python and a
   https://www.youtube.com/watch?v=cXWuSWX0Va0
 - **Crash Course Pydantic** → `Crash Course Pydantic/`  
   https://www.youtube.com/watch?v=pXktHVUpXUc
+- **Intelligent AI Chatbot** → `Intelligent AI Chatbot/`  
+  https://www.youtube.com/watch?v=1lwddP0KUEg
+
 ---
 
 ### 📊 Data Visualization
