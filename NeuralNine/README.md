@@ -98,6 +98,8 @@ Each folder corresponds to a specific topic explored while learning Python and a
   https://www.youtube.com/watch?v=pXktHVUpXUc
 - **Intelligent AI Chatbot** → `Intelligent AI Chatbot/`  
   https://www.youtube.com/watch?v=1lwddP0KUEg
+- **Advanced AI Chatbot** → `Advanced AI Chatbot/`  
+  https://www.youtube.com/watch?v=a040VmmO-AY
 
 ---
 
