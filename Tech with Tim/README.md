@@ -34,8 +34,11 @@ Each folder contains:
   https://www.youtube.com/watch?v=ujTCoH21GlA&list=PLzMcBGfZo4-mP7qA9cagf68V06sko5otr
 
 ### 🧠 Neural Networks
-- **Neural Network Playlist**  → `Neural Networks/`  
+- **Neural Networks Playlist**  → `Neural Networks/`  
   http://youtube.com/watch?v=OS0Ddkle0o4&list=PLzMcBGfZo4-lak7tiFDec5_ZMItiIIfmj
+
+- **Chat Bot Tutorial Playlist**  → `Chat Bot Tutorial/`  
+  https://youtube.com/watch?v=wypVcNIH6D4?list=PLzMcBGfZo4-ndH9FoC4YWHGXG5RZekt-Q
 
 ### 🧩 Programming Problems
 - **Programming Challenges Playlist**  → `Programming Problem/`  
